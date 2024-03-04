@@ -12,8 +12,17 @@
   },
   "author": "WaleyChAn",
   "license": "MIT",
+  "bin": "bin/entry",
   "bugs": {
     "url": "https://github.com/WaleyChAn/wlc-cli/issues"
   },
-  "homepage": "https://github.com/WaleyChAn/wlc-cli#readme"
+  "homepage": "https://github.com/WaleyChAn/wlc-cli#readme",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "commander": "^9.0.0",
+    "figlet": "^1.5.2",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^8.2.1",
+    "ora": "^5.4.1"
+  }
 }
